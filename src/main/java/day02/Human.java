@@ -2,9 +2,9 @@ package day02;
 
 public class Human {
     private String name;
-    private String age;
+    private int age;
 
-    public Human(String name, String age) {
+    public Human(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -13,7 +13,7 @@ public class Human {
         return name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 }
