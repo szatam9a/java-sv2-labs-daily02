@@ -1,14 +1,14 @@
 package day02;
 
 public class Rectangle {
-    private double aside;
-    private double  bside;
+    private double aSide;
+    private double  bSide;
 
-    public Rectangle(int aside, int bside) {
-        this.aside = aside;
-        this.bside = bside;
+    public Rectangle(int aSide, int bSide) {
+        this.aSide = aSide;
+        this.bSide = bSide;
     }
     public double calculateArea (){
-        return aside*bside;
+        return aSide*bSide;
     }
 }
