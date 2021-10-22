@@ -8,6 +8,7 @@ public class Rectangle {
         this.aSide = aSide;
         this.bSide = bSide;
     }
+
     public double calculateArea (){
         return aSide*bSide;
     }
